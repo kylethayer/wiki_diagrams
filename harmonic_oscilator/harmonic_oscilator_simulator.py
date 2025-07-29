@@ -189,8 +189,8 @@ def create_fig(title = "", filename = "tmp"):
     fig.align_ylabels([ax1, ax2])
     
     #plt.show()
-    plt.savefig(filename+".png")
-    plt.savefig(filename+".svg")
+    plt.savefig(filename+".png", bbox_inches = "tight")
+    plt.savefig(filename+".svg", bbox_inches = "tight")
     
     
 
