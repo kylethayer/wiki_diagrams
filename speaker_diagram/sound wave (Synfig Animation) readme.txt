@@ -5,4 +5,4 @@ Then I used the command line tool ffmpeg to turn those pngs into an animated gif
 
 ffmpeg -i "sound wave (Synfig Animation).%04d.png" -vf palettegen palette.png
 
-ffmpeg -r 30 -i "sound wave (Synfig Animation).%04d.png" -i palette.png -lavfi paletteuse output.gif 
+ffmpeg -r 24 -i "sound wave (Synfig Animation).%04d.png" -i palette.png -lavfi paletteuse output.gif 
