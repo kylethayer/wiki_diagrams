@@ -1,4 +1,4 @@
-To make the gif, I had Synfig output png files at 960 x 540
+To make the gif, I had Synfig output png files at 800 × 450 (larger size failed Wikipedia gif limit)
 Note: The Synfig file relies on the font file: ArchivoBlack-Regular.ttf
 
 Then I used the command line tool ffmpeg to turn those pngs into an animated gif. I ran two commands: The first command generates a palette, and the second command uses the palette plus the png animation files to make a gif that runs at 30 frames per second.
